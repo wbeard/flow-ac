@@ -4,7 +4,8 @@
   "description": "A presentation of flow for CAAC",
   "main": "index.js",
   "scripts": {
-    "test": "flow"
+    "test": "flow",
+    "build": "babel --watch=./src --out-dir=./build"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,13 @@
   },
   "homepage": "https://github.com/wbeard/flow-ac#readme",
   "devDependencies": {
+    "babel-plugin-transform-flow-strip-types": "^6.8.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.5.0",
     "flow-bin": "^0.29.0"
+  },
+  "dependencies": {
+    "immutable": "^3.8.1",
+    "react": "^15.2.1"
   }
 }

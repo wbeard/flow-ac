@@ -6,10 +6,13 @@
   - Catch TypeErrors before runtime
     - Immutable vs POJO
     - null safety
-    - Code example
+  - Code Doc
+    - Components
+    - Actions
+    - Selectors
   - Gradual typing
-    - Annotate one file at a time
-    - Code example
+    - Annotate one function at a time
   - Simple integration into build
     - babel plugin
-    - Code example
+  - js-errors
+- Questions?
