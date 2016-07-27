@@ -1,6 +1,6 @@
 - Who: William Beard, etc., etc., etc.
 - What: Flow
-  - Static type checker for javascript
+  - Static type checker for JavaScript
   - Quick code example
 - Why:
   - Catch TypeErrors before runtime
