@@ -1,6 +1,7 @@
 // @flow
 
-function add(first: number, second: number): ?number {
+// Annotated
+const add = (first: number, second: number): ?number => {
   if(isNaN(first) || isNaN(second)) {
     throw new Error('Not a number');
   }
@@ -8,7 +9,11 @@ function add(first: number, second: number): ?number {
   return first + second;
 }
 
-function addOneAndTwo(): string {
+// Not annotated
+// What's missing? Use flow coverage; flow suggest;
+const subtract = (first, second) => first - second;
+
+function addOneAndTwo() {
   const firstAnswer = add(1, 2);
 
   return `${firstAnswer}`;

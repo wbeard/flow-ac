@@ -1,18 +1,15 @@
-- Who: William Beard, etc., etc., etc.
-- What: Flow
-  - Static type checker for JavaScript
-  - Quick code example
-- Why:
-  - Catch TypeErrors before runtime
-    - Immutable vs POJO
-    - null safety
-  - Code Doc
-    - Components
-    - Actions
-    - Selectors
-  - Gradual typing
-    - Annotate one function at a time
-  - Simple integration into build
-    - babel plugin
-  - js-errors
-- Questions?
+# Flow
+### [Slides](http://slides.com/willb/flow-4)
+
+#### Run examples
+```
+npm i
+npm test
+```
+
+#### Atom integration
+```
+apm install linter
+apm install linter-flow
+atom .
+```
