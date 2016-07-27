@@ -1,17 +1,17 @@
 // @flow
 
-function add(first: number, second: number): ?number {
-  if(isNaN(first) || isNaN(second)) {
-    throw new Error('Not a number');
+function add(first: number | string, second: number | string): ?number {
+  if(isNaN(Number(first)) || isNaN(Number(second))) {
+    return;
   }
 
-  return first + second;
+  return Number(first) + Number(second);
 }
 
-function addAsDollars(first: number, second: number): string {
-  const sum = add(1, 2);
+function addAsDollars(first: number | string, second: number | string): string {
+  const sum = add(first, second);
 
-  return `$${sum}`.toLocaleString('us-EN', {
+  return sum.toLocaleString('us-EN', {
     style: 'currency',
     currency: 'USD'
   });

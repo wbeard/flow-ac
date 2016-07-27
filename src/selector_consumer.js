@@ -3,4 +3,4 @@ import { getNavPrefProject } from './selectors';
 
 const project = getNavPrefProject(1234);
 
-console.log(project.name);
+console.log(project.get('name'));
