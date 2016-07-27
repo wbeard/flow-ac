@@ -1,0 +1,15 @@
+- Who: William Beard, etc., etc., etc.
+- What: Flow
+  - Static type checker for javascript
+  - Quick code example
+- Why:
+  - Catch TypeErrors before runtime
+    - Immutable vs POJO
+    - null safety
+    - Code example
+  - Gradual typing
+    - Annotate one file at a time
+    - Code example
+  - Simple integration into build
+    - babel plugin
+    - Code example

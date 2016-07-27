@@ -1,0 +1,22 @@
+{
+  "name": "flow-ac",
+  "version": "1.0.0",
+  "description": "A presentation of flow for CAAC",
+  "main": "index.js",
+  "scripts": {
+    "test": "flow"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wbeard/flow-ac.git"
+  },
+  "author": "William Beard <william.beard@ca.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wbeard/flow-ac/issues"
+  },
+  "homepage": "https://github.com/wbeard/flow-ac#readme",
+  "devDependencies": {
+    "flow-bin": "^0.29.0"
+  }
+}
